@@ -4,7 +4,7 @@ You have 2 directories in the root of this repository:
 1. `js-blocks`
 2. `theme`
 
-They are completely separate from each other and can live in separate repositories. In a production environment, I'd recommend separating them to avoid any conflicts with configurations.
+They are completely separate from each other and can live in separate repositories. In a production environment, we'd recommend separating them to avoid any conflicts with configurations.
 
 **Please note:** This repository is mostly for learning about HubSpot JS blocks and code reference.
 We cannot guarantee that things will actually work in production or during a build.
