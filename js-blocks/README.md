@@ -1,4 +1,4 @@
-# JS blocks
+# JS blocks directory
 This directory follows the structure of a HubSpot project:
 
 1. Configurations in the root
