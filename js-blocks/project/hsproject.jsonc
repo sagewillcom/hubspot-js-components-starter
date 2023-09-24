@@ -1,0 +1,9 @@
+// Remove the comments and change this file back to .json
+
+{
+  "name": "js-blocks",
+  // To upload the project directly via the CLI, you have to change srcDir to src.
+  // It's a bug that we don't fully understand, but it works. We use the GitHub integration to build on push.
+  "srcDir": ".",
+  "platformVersion": "2023.1"
+}

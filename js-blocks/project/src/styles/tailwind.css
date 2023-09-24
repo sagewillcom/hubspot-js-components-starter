@@ -1,0 +1,15 @@
+/* @import url('your custom fonts'); */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    /* font-family: your custom fonts; */
+  }
+}
+
+:focus-visible {
+  /* outline: your custom tab focus color; */
+}

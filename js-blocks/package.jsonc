@@ -1,0 +1,28 @@
+// Remove the comments and change this file back to .json
+
+{
+  "name": "js-blocks",
+  "scripts": {
+    "postinstall": "cd project/src && npm i",
+    "format": "prettier --write project/src/**/*.{js,jsx,json,svg} --config .prettierrc",
+    "lint:project": "cd project/src && npm run lint",
+    "dev:project": "cd project/src && npm run dev",
+    "create:project": "hs project create",
+    // Building the project by uploading directly will likely not work.
+    // There is a small bug with the hsproject.json where you have to change it for direct upload.
+    // If you link the project to your github and simply commit and push, builds will work.
+    // See the hsproject.json for the small change necessary for direct uploads.
+    "build:project": "hs project upload project", 
+    "git:commit": "git add . && git commit -m",
+    "hs:init": "hs init"
+  },
+  "devDependencies": {
+    "@hubspot/cli": "^5.0.0",
+    "eslint": "^8.48.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-react": "^7.33.2",
+    "eslint-plugin-tailwindcss": "^3.13.0",
+    "prettier": "^3.0.3",
+    "prettier-plugin-tailwindcss": "^0.5.4"
+  }
+}
